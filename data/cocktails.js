@@ -34,9 +34,9 @@ const cocktails = [
   {
     id: 5,
     image: '/images/whiskey-sour.jpg',
-    name: 'Whiskey Sour',
+    name: 'Cherry Whiskey Sour',
     flavor: 'Sour',
-    ingredients: ['Lemon Juice', 'Bourbon', 'Sugar Syrup', 'Egg White' ],
+    ingredients: ['Cherry juice', 'Lemon Juice', 'Whiskey', 'Sugar Syrup', 'Egg White' ],
     preparation: ['Add ice and all of the ingredients into a shaker and shake hard for about 20 seconds to chill the liquid. Strain the mix into a glass filled with ice and garnish with a cherry and orange slice.']
   },
   {
@@ -68,7 +68,7 @@ const cocktails = [
     image: '/images/amaretto-sour.jpg',
     name: 'Amaretto Sour',
     flavor: 'Sour',
-    ingredients: ['Lemon Juice', 'Lemon-Lime Soda', 'Amaretto Liqueur', 'Bourbon', 'Sugar'],
+    ingredients: ['Lemon Juice', 'Lemon & Lime Soda', 'Amaretto Liqueur', 'Bourbon', 'Sugar'],
     preparation: ['Shake with ice in a cocktail shaker and strain into a glass. Top with lemon lime soda. Garnish with a lemon slice and cherry.']
   },
   {
