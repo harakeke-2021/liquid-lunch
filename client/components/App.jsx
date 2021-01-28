@@ -7,7 +7,6 @@ import Ingredients from './Ingredients'
 const App = () => {
   return (
     <>
-      <Home />
       <Route exact path="/:flavour" component={Ingredients} />
       <Route exact path="/" component={Home} />
     </>

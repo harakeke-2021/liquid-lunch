@@ -10,9 +10,9 @@ function Home () {
     <>
       <h1>Liquid-Lunch</h1>
       {
-        flavours.map((flavour) => {
+        flavours.map((flavour) => (
           <ImageCard key={hash(flavour.name)} item={flavour} />
-        })
+        ))
       }
     </>
   )
