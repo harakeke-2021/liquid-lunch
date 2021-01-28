@@ -9,6 +9,7 @@ const App = () => {
     <>
       <Home />
       <Route exact path="/:flavour" component={Ingredients} />
+      <Route exact path="/" component={Home} />
     </>
   )
 }
