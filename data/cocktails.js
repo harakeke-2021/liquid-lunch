@@ -36,7 +36,7 @@ const cocktails = [
     image: '/images/whiskey-sour.jpg',
     name: 'Cherry Whiskey Sour',
     flavor: 'Sour',
-    ingredients: ['Cherry juice', 'Lemon Juice', 'Whiskey', 'Sugar Syrup', 'Egg White' ],
+    ingredients: ['Cherry juice', 'Lemon Juice', 'Whiskey', 'Sugar Syrup', 'Egg White'],
     preparation: ['Add ice and all of the ingredients into a shaker and shake hard for about 20 seconds to chill the liquid. Strain the mix into a glass filled with ice and garnish with a cherry and orange slice.']
   },
   {
