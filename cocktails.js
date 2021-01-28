@@ -38,8 +38,8 @@ const cocktails = [
     image: '',
     name: 'Pina Colada',
     flavor: 'Fruity',
-    ingredients: [],
-    preparation: ['Rum (White) (45) Pineapple Juice (100) Coconut Syrup (20)']
+    ingredients: ['Pineapple Juice', 'White Rum', 'Coconut Cream'],
+    preparation: ['Mix with crushed ice until smooth. Pour into chilled glass, garnish with a pineapple wedge, and serve.']
   },
   {
     image: '',
@@ -66,22 +66,22 @@ const cocktails = [
     image: '',
     name: 'Bloody Mary',
     flavor: 'Spicy',
-    ingredients: [],
-    preparation: ['']
+    ingredients: ['Tomato Juice', 'Vodka', 'Tabasco Sauce', 'Worchestershire Sauce'],
+    preparation: ['Add dashes of Worcestershire Sauce, Tabasco, salt and pepper into highball glass, then pour all ingredients into highball with ice cubes. Stir gently. Garnish with celery stalk.']
   },
   {
     image: '',
     name: 'Penicillin',
     flavor: 'Spicy',
-    ingredients: [],
-    preparation: ['']
+    ingredients: ['Ginger', 'Scotch', 'Lemon', 'Honey'],
+    preparation: ['Combine all ingredients in a shaker with ice, and shake until well-chilled. Strain into a rocks glass over fresh ice. Top with the Islay single malt scotch. Garnish with a piece of candied ginger.']
   },
   {
     image: '',
-    name: 'Bon Fire',
+    name: 'Michelada',
     flavor: 'Spicy',
-    ingredients: [],
-    preparation: ['']
+    ingredients: ['Tomato Juice', 'Beer', 'Lime', 'Tabasco Sauce', 'Worchestershire Sauce'],
+    preparation: ['Mix the beer with tomato juice, freshly squeezed lime juice, Worcestershire sauce, and hot sauce.']
   }
 ]
 
