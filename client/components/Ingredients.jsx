@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import hash from 'hash-string'
 
 import ImageCard from './ImageCard'
 
@@ -11,7 +11,7 @@ function Ingredients (props) {
       <h1>Choose an Ingredient</h1>
       {
         ingredients.map(ingredient => (
-          <ImageCard item={ingredient} />
+          <ImageCard key={hash(ingredient.name)} item={ingredient} />
         ))
       }
     </div>
