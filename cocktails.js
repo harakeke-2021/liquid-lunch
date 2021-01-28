@@ -31,8 +31,8 @@ const cocktails = [
     image: '',
     name: 'Whiskey Sour',
     flavor: 'Sour',
-    ingredients: [],
-    preparation: ['Whiskey (45) Sweet & Sour (75)']
+    ingredients: ['Lemon Juice', 'Egg White', 'Bourbon', 'Simple Syrup'],
+    preparation: ['Shake with ice. Strain into ice-filled old-fashioned glass to serve on the rocks']
   },
   {
     image: '',
