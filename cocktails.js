@@ -52,15 +52,15 @@ const cocktails = [
     image: '',
     name: 'Pisco Sour',
     flavor: 'Sour',
-    ingredients: [],
-    preparation: ['']
+    ingredients: ['Lemon Juice', 'Egg White', 'Pisco', 'Simple Syrup'],
+    preparation: ['Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters.']
   },
   {
     image: '',
     name: 'Amaretto Sour',
     flavor: 'Sour',
-    ingredients: [],
-    preparation: ['']
+    ingredients: ['Lemon Juice', 'Lemon-Lime Soda', 'Bourbon', 'Sugar'],
+    preparation: ['Shake with ice in a cocktail shaker and strain into a glass. Top with lemon lime soda. Garnish with a lemon slice and cherry.']
   },
   {
     image: '',
