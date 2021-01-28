@@ -36,8 +36,8 @@ const cocktails = [
     image: '/images/whiskey-sour.jpg',
     name: 'Whiskey Sour',
     flavor: 'Sour',
-    ingredients: [],
-    preparation: ['Whiskey (45) Sweet & Sour (75)']
+    ingredients: ['Lemon Juice', 'Bourbon', 'Sugar Syrup', 'Egg White' ],
+    preparation: ['Add ice and all of the ingredients into a shaker and shake hard for about 20 seconds to chill the liquid. Strain the mix into a glass filled with ice and garnish with a cherry and orange slice.']
   },
   {
     id: 6,
