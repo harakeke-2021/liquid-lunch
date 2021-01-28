@@ -1,52 +1,52 @@
 const cocktails = [
   {
-    image: 'http://cocktail.itsplanet.eu/img/cocktail/2017_15.jpg',
+    image: '',
     name: 'Strawberry Daiquiri',
     flavor: 'Fruity',
-    ingredients: ['Strawberry', 'White Rum', 'Lime', 'Sugar Syrup'],
+    ingredients: ['Strawberries', 'White Rum', 'Lime', 'Sugar Syrup'],
     preparation: ['Combine ice, sugar, and strawberries. Add in lime juice, and rum. Blend until smooth. Pour into glasses and serve.']
   },
   {
-    image: 'http://cocktail.itsplanet.eu/img/cocktail/2017_50.jpg',
+    image: '',
     name: 'Old Fashioned',
     flavor: 'Sweet',
-    ingredients: [],
-    preparation: ['Whiskey (45) Bitter Campari (5) Soda (20)']
+    ingredients: ['Orange', 'Bourbon', 'Bitters', 'Sugar'],
+    preparation: ['Dissolve or muddle sugar with a splash of water in an Old Fashioned glass. Fill glass ¾ full of ice. Add Bourbon and bitters and stir. Garnish with orange slice and cherry.']
   },
   {
-    image: 'http://cocktail.itsplanet.eu/img/cocktail/2017_45.jpg',
+    image: '',
     name: 'Mojito',
     flavor: 'Sweet',
-    ingredients: [],
-    preparation: ['Rum (White) (60) Lime (30) Soda (50)']
+    ingredients: ['Mint', 'White Rum', 'Soda Water', 'Lime', 'Simple Syrup'],
+    preparation: ['In a tall highball glass muddle mint with lime juice and simple syrup. Add crushed ice and rum then stir. Top up with crushed ice, add soda, and stir one more time. Garnish with a sprig of mint.']
   },
   {
-    image: 'http://cocktail.itsplanet.eu/img/cocktail/2017_40.jpg',
-    name: 'Margarita',
+    image: '',
+    name: 'Raspberry Margarita',
     flavor: 'Sweet',
-    ingredients: [],
-    preparation: ['Lime (25) Triple Sec (25) Tequila (50)']
+    ingredients: ['Raspberries', 'Tequila', 'Triple Sec', 'Lime Juice'],
+    preparation: ['Pour the tequila, triple sec, lime juice, fresh raspberries, and ice cubes into a blender. Blend until smooth. Pour the contents into a chilled margarita glass. Garnish with fresh raspberries and serve.']
   },
   {
-    image: 'http://cocktail.itsplanet.eu/img/cocktail/2017_413.jpg',
+    image: '',
     name: 'Whiskey Sour',
     flavor: 'Sour',
     ingredients: [],
     preparation: ['Whiskey (45) Sweet & Sour (75)']
   },
   {
-    image: 'http://cocktail.itsplanet.eu/img/cocktail/2017_53.jpg',
+    image: '',
     name: 'Pina Colada',
     flavor: 'Fruity',
     ingredients: [],
     preparation: ['Rum (White) (45) Pineapple Juice (100) Coconut Syrup (20)']
   },
   {
-    image: 'http://cocktail.itsplanet.eu/img/cocktail/2017_13.jpg',
+    image: '',
     name: 'Cosmopolitan',
     flavor: 'Fruity',
-    ingredients: [],
-    preparation: ['Vodka (40) Triple Sec (15) Lime (30) Cranberry Juice (60)']
+    ingredients: ['Cranberry Juice', 'Lime', 'Vodka', 'Triple Sec'],
+    preparation: ['Combine all ingredients into an ice-filled shaker and shake until well chilled. Strain into a chilled martini glass. Garnish with a lime wheel and cranberries.']
   },
   {
     image: '',
