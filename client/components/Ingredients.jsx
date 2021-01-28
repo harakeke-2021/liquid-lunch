@@ -17,3 +17,5 @@ function Ingredients (props) {
     </div>
   )
 }
+
+export default Ingredients
