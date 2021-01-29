@@ -8,7 +8,7 @@ import flavours from '../../data/flavours'
 function Home () {
   return (
     <div className='container'>
-      <h1 className='item-a header'>liquidLunch.</h1>
+      <h1 className='item-a header'>I am feeling ...</h1>
       <div className='cardHolder'>
         {
           flavours.map((flavour) => (
