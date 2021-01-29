@@ -44,7 +44,7 @@ const ingredients = [
     image: '/images/0-lemon-lime.jpg'
   },
   {
-    name: 'Cherry',
+    name: 'Cherry Juice',
     image: '/images/0-cherries.jpg'
   }
 ]

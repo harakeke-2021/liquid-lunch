@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-function ImageCard(props) {
+function ImageCard (props) {
   const link = props.item.drinkId ? `/drink/${props.item.drinkId}` : `/${props.item.name.toLowerCase()}`
 
   return (

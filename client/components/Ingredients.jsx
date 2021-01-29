@@ -20,9 +20,6 @@ function Ingredients (props) {
     }
   })
 
-  console.log('matching ingredients:', mainIngr)
-  console.log('matching drinks:', drinks)
-  console.log('ingredients:', ingr)
   return (
     <div className='container'>
       <h1 className='item-a header'>Choose an Ingredient</h1>
