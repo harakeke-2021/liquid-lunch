@@ -4,16 +4,30 @@ import { Link } from 'react-router-dom'
 
 function ImageCard (props) {
   return (
-    <div>
-      <Link to={`/${props.item.name.toLowerCase()}`} >
-        <motion.button
-          whileHover={{ scale: 1.1 }}
+    <Link style={{ textDecoration: 'none', color: 'black' }}to={`/${props.item.name.toLowerCase()}`} >
+      <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        transition={{
+          type: 'spring',
+          stiffness: 200,
+          damping: 40
+        }}
+      >
+        <motion.div
+          whileHover={{ scale: 1.6 }}
           whileTap={{ scale: 0.6 }}
         >
-          <img style={{ width: '100px' }} src={props.item.image} alt='' />
-        </motion.button>
-      </Link>
-    </div>
+          <img style={{
+            height: '250px',
+            width: '250px',
+            objectFit: 'cover',
+            borderRadius: '15%'
+          }} src={props.item.image} alt='' />
+          <h3 style={{ textAlign: 'center' }}>{props.item.name}</h3>
+        </motion.div>
+      </motion.div>
+    </Link>
   )
 }
 
