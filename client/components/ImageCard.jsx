@@ -2,9 +2,11 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-function ImageCard (props) {
+function ImageCard(props) {
+  const link = props.item.drinkId ? `/drink/${props.item.drinkId}` : `/${props.item.name.toLowerCase()}`
+
   return (
-    <Link style={{ textDecoration: 'none', color: 'black' }}to={`/${props.item.name.toLowerCase()}`} >
+    <Link style={{ textDecoration: 'none', color: 'black' }} to={link} >
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
