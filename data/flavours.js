@@ -13,7 +13,7 @@ const flavours = [
   },
   {
     name: 'Spicy',
-    image: '/images/0-tabasco.jpg'
+    image: '/images/0-chillies.jpg'
   }
 ]
 
