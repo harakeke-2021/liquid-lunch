@@ -7,14 +7,16 @@ import flavours from '../../data/flavours'
 
 function Home () {
   return (
-    <>
-      <h1>Liquid-Lunch</h1>
-      {
-        flavours.map((flavour) => (
-          <ImageCard key={hash(flavour.name)} item={flavour} />
-        ))
-      }
-    </>
+    <div className='container'>
+      <h1 className='item-a header'>liquidLunch.</h1>
+      <div className='cardHolder'>
+        {
+          flavours.map((flavour) => (
+            <ImageCard key={hash(flavour.name)} item={flavour} />
+          ))
+        }
+      </div>
+    </div>
   )
 }
 
