@@ -9,7 +9,12 @@ body {
   grid-template-areas: 
     "header header header"
     ". main ."
+    ". centre ."
     "footer footer footer";
+}
+
+.drinkImage {
+  margin: 0 auto;
 }
 
 .container > div {
@@ -37,4 +42,8 @@ body {
 }
 .item-c {
   grid-area: footer;
+}
+
+.item-d {
+  grid-area: centre;
 }
