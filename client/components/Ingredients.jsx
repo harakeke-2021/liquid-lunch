@@ -25,12 +25,14 @@ function Ingredients (props) {
   console.log('ingredients:', ingr)
   return (
     <div className='container'>
-      <h1>Choose an Ingredient</h1>
-      {
-        mainIngr.map(ingredient => (
-          <ImageCard key={hash(ingredient.name)} item={ingredient} />
-        ))
-      }
+      <h1 className='item-a header'>Choose an Ingredient</h1>
+      <div className='cardHolder'>
+        {
+          mainIngr.map(ingredient => (
+            <ImageCard key={hash(ingredient.name)} item={ingredient} />
+          ))
+        }
+      </div>
     </div>
   )
 }
