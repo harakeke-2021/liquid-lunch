@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function ImageCard (props) {
   return (
-    <Link to={`/${props.item.name.toLowerCase()}`} >
+    <Link style={{ textDecoration: 'none', color: 'black' }}to={`/${props.item.name.toLowerCase()}`} >
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
@@ -18,7 +18,13 @@ function ImageCard (props) {
           whileHover={{ scale: 1.6 }}
           whileTap={{ scale: 0.6 }}
         >
-          <img style={{ width: '100%' }} src={props.item.image} alt='' />
+          <img style={{
+            height: '250px',
+            width: '250px',
+            objectFit: 'cover',
+            borderRadius: '15%'
+          }} src={props.item.image} alt='' />
+          <h3 style={{ textAlign: 'center' }}>{props.item.name}</h3>
         </motion.div>
       </motion.div>
     </Link>

@@ -1,6 +1,10 @@
+body {
+  background-color: #bbdfc8;
+}
+
 .container {
   display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
+  grid-template-columns: 1fr 10fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
     "header header header"
@@ -14,7 +18,7 @@
 
 .header {
   margin-top: 3rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .cardHolder {
