@@ -17,7 +17,7 @@ function ImageCard (props) {
         }}
       >
         <motion.div
-          whileHover={{ scale: 1.6 }}
+          whileHover={{ scale: 1.4 }}
           whileTap={{ scale: 0.6 }}
         >
           <img style={{

@@ -11,6 +11,7 @@ body {
     "header header header"
     ". main ."
     ". centre ."
+    ". btn ."
     "footer footer footer";
 }
 
@@ -18,10 +19,18 @@ body {
   width: 500px;
   height: 500px;
   object-fit: cover;
-
 }
 
-.drinkDiv {
+.btn:hover {
+  background-color: #ffc478;
+}
+
+.btn {
+  background-color: #75cfb8;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  color: black;
 }
 
 .container > div {
@@ -31,6 +40,7 @@ body {
 .header {
   margin-top: 3rem;
   font-family: 'Lato', sans-serif;
+  font-size: 50px;
 }
 
 .cardHolder {
@@ -54,4 +64,11 @@ body {
 .item-d {
   grid-area: centre;
   margin: 5rem 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.item-e {
+  grid-area: btn;
+  margin: -3rem auto 1.5rem auto;
 }

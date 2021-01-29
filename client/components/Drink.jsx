@@ -17,7 +17,7 @@ function Drink (props) {
           <img className='drinkImage' src={result.image} alt={result.name} />
         </div>
         <div>
-          <h3>{result.name}</h3>
+          <h3 className='header'>{result.name}</h3>
           <h4>Ingredients</h4>
           <ul className='ingredients'>
             {result.ingredients.map((ingredient) => {
@@ -25,7 +25,11 @@ function Drink (props) {
             })}
           </ul>
           <p>{result.preparation[0]}</p>
-          <Link to={'/'}>Another Round?</Link>
+          <Link to={'/'}>
+            <button className='btn'>
+              Another Round?
+            </button>
+          </Link>
         </div>
       </div>
     </div>

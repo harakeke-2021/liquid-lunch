@@ -32,8 +32,12 @@ function Ingredients (props) {
             ))
           }
         </div>
+        <Link className='item-e' to={'/'}>
+          <button className='btn'>
+            Not Feeling It...
+          </button>
+        </Link>
       </div>
-      <Link to={'/'}>Not Feeling It...</Link>
     </>
   )
 }
