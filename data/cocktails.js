@@ -68,7 +68,7 @@ const cocktails = [
     image: '/images/amaretto-sour.jpg',
     name: 'Amaretto Sour',
     flavor: 'Sour',
-    ingredients: ['Lemon Juice', 'Lemon & Lime Soda', 'Amaretto Liqueur', 'Bourbon', 'Sugar'],
+    ingredients: ['Lemon & Lime', 'Lemon Juice', 'Amaretto Liqueur', 'Bourbon', 'Sugar'],
     preparation: ['Shake with ice in a cocktail shaker and strain into a glass. Top with lemon lime soda. Garnish with a lemon slice and cherry.']
   },
   {
@@ -92,7 +92,7 @@ const cocktails = [
     image: '/images/michelada.jpg',
     name: 'Michelada',
     flavor: 'Spicy',
-    ingredients: ['Beer', 'Tomato Juice', 'Lime', 'Tabasco Sauce', 'Worchestershire Sauce'],
+    ingredients: ['Tabasco Sauce', 'Tomato Juice', 'Lime', 'Beer', 'Worchestershire Sauce'],
     preparation: ['Mix the beer with tomato juice, freshly squeezed lime juice, Worcestershire sauce, and hot sauce.']
   }
 ]
