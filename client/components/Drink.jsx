@@ -1,7 +1,7 @@
 import React from 'react'
 import hash from 'hash-string'
-
 import cocktails from '../../data/cocktails'
+import { Link } from 'react-router-dom'
 
 function Drink (props) {
   const id = Number(props.match.params.id)
@@ -22,7 +22,7 @@ function Drink (props) {
           })}
         </ul>
         <p>{result.preparation[0]}</p>
-
+        <Link to={'/'}>Another Round?</Link>
       </div>
     </div>
   )
