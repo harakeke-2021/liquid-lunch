@@ -12,17 +12,21 @@ function Drink (props) {
 
   return (
     <div className='container'>
-      <div className='item-d drinkImage'>
-        <img src={result.image} alt={result.name} />
-        <h3>{result.name}</h3>
-        <h4>Ingredients</h4>
-        <ul className='ingredients'>
-          {result.ingredients.map((ingredient) => {
-            return (<li key={hash(ingredient)}>{ingredient}</li>)
-          })}
-        </ul>
-        <p>{result.preparation[0]}</p>
-        <Link to={'/'}>Another Round?</Link>
+      <div className='item-d'>
+        <div>
+          <img className='drinkImage' src={result.image} alt={result.name} />
+        </div>
+        <div>
+          <h3>{result.name}</h3>
+          <h4>Ingredients</h4>
+          <ul className='ingredients'>
+            {result.ingredients.map((ingredient) => {
+              return (<li key={hash(ingredient)}>{ingredient}</li>)
+            })}
+          </ul>
+          <p>{result.preparation[0]}</p>
+          <Link to={'/'}>Another Round?</Link>
+        </div>
       </div>
     </div>
   )

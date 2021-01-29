@@ -1,5 +1,6 @@
 body {
   background-color: #bbdfc8;
+  font-family: 'Merriweather', serif;
 }
 
 .container {
@@ -14,7 +15,13 @@ body {
 }
 
 .drinkImage {
-  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.drinkDiv {
 }
 
 .container > div {
@@ -46,4 +53,5 @@ body {
 
 .item-d {
   grid-area: centre;
+  margin: 5rem 0;
 }
